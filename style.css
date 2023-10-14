@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Varela+Round&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("img/got.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wolf{
+	position: fixed;
+	font-size: 50px;
+	animation: subir 3s linear forwards;
+}
+
+@keyframes subir {
+	from{
+		transform: translateY(-50vh);
+	}
+	to{
+		transform: translateY(75vh);
+	}
+}
