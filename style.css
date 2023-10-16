@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Varela+Round&display=swap');
+
 
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 body{
@@ -14,11 +13,10 @@ body{
 
 .wolf{
 	position: fixed;
-	font-size: 50px;
-	animation: subir 3s linear forwards;
+	animation: bajar 3s linear forwards;
 }
 
-@keyframes subir {
+@keyframes bajar {
 	from{
 		transform: translateY(-50vh);
 	}
