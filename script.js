@@ -9,7 +9,7 @@ function createWolf() {
   wolf.src= 'img/lobo.png';
   wolf.style.width = '300px';
   wolf.style.height = '200px';
-  wolf.style.left = Math.random() * 100 + "vh";
+  wolf.style.left = `${Math.random()*(window.innerWidth - 50)}px`;
   wolf.style.animationDuration = Math.random() * 2 + 3 + "s";
 
   document.body.appendChild(wolf);
